@@ -18,7 +18,7 @@ const App = () => {
                     <Route path={"/popular"} element={<Popular/>}/>
                     <Route path={"/top-rated"} element={<TopRated/>}/>
                     <Route path={"/favorite"} element={<Favorite/>}/>
-                    <Route path={"/movies/movie-detail/:movieId"} element={<DetailPage/>}/>
+                    <Route path={"/movie/:movieId"} element={<DetailPage/>}/>
                     <Route path={"/actors/actor-detail/:castId"} element={<DetailActors/>}/>
                     <Route path={"/movies/search-results/:moviesName"} element={<SearchResult/>}/>
                 </Routes>

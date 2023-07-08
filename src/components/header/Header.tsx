@@ -16,16 +16,16 @@ const Header = () => {
                         </div>
                         <div className={"w-[370.6px] flex items-center justify-between"}>
                             <NavLink to={"/"}
-                               className={"text-white text-base font-[600]"}>
+                                     className={"text-white text-base font-[600]"}>
                                 Главная</NavLink>
                             <NavLink to={"/popular"}
-                               className={"text-white text-base font-[600]"}>
+                                     className={"text-white text-base font-[600]"}>
                                 Popular</NavLink>
                             <NavLink to={"/top-rated"}
-                                             className={"text-white text-base font-[600]"}>
+                                     className={"text-white text-base font-[600]"}>
                                 TopRated</NavLink>
                             <NavLink to={"/favorite"}
-                               className={"text-white text-base font-[600]"}>
+                                     className={"text-white text-base font-[600]"}>
                                 Любимый</NavLink>
                         </div>
                     </div>
