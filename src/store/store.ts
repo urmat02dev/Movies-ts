@@ -1,10 +1,11 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import userSlice from "./Reducers/UserSlice";
 import moviesSlice from "./Reducers/MoviesSlice";
-
+import NormalSlice from "./Reducers/NormalSlice";
 const rootReducer = combineReducers({
     user:userSlice,
-    movies:moviesSlice
+    movies:moviesSlice,
+    normal:NormalSlice
 })
 export const setupStore = () => {
     return configureStore({

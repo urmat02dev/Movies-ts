@@ -11,14 +11,14 @@ const Popular = () => {
     useEffect(() => {
         dispatch(PopularMovies())
     },[])
-    console.log(movies)
     return (
         <div >
             {loader && <p>Loading..</p>}
             {error && <p>{error}</p>}
             <div className="container">
-                <div className={"flex flex-wrap w-[95%] items-center justify-center mx-10 mt-2"}>
+                <div className={"flex flex-wrap w-[95%] items-center justify-center mx-10 mt-2 "}>
                     {
+                        
                         movies.map(el => (
                             <Card el={el} key={el.id}/>
                         ))
